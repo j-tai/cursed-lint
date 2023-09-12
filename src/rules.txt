@@ -25,19 +25,19 @@ Rule 14: unnecessary use of goto
     goto
 
 Rule 15: unnecessary "else" for loop exit
-    return _; else
-    return _; } else
+    return ___; else
+    return ___; } else
 
-Rule 16: poor use of "for" loop
-    for (;
+# Rule 16: poor use of "for" loop
+#     for (; __ ___;)
 
 Rule 17: use of "while" with index rather than "for" loop
-    while (_ < _) { ++
-    while (_ < _) { _++
-    while (_ < _) { _ += 1
-    while (_ <= _) { ++
-    while (_ <= _) { _++
-    while (_ <= _) { _ += 1
+    while (_ < __) { ++_
+    while (_ < __) { _++
+    while (_ < __) { _ += 1
+    while (_ <= __) { ++_
+    while (_ <= __) { _++
+    while (_ <= __) { _ += 1
 
 # Rule 18: unnecessary use of string variables
 #     string
