@@ -1,0 +1,61 @@
+# https://piazza.com/class/ll830r7jj193sm/post/8
+
+Rule 2: Use of C patterns instead of C++ patterns
+    printf
+    scanf
+    getchar
+    malloc
+    free
+
+Rule 3: #define statement instead of static/const or enum declaration or inline routine
+    #define
+
+Rule 5: unnecessary use of "this"
+    this->
+
+Rule 11: unnecessary dynamic allocation
+    new
+    make_unique
+    make_shared
+
+Rule 13: pointer arithmetic to subscript an array
+    *(_ +
+
+Rule 14: unnecessary use of goto
+    goto
+
+Rule 15: unnecessary "else" for loop exit
+    return _; else
+    return _; } else
+
+Rule 16: poor use of "for" loop
+    for (;
+
+Rule 17: use of "while" with index rather than "for" loop
+    while (_ < _) { ++
+    while (_ < _) { _++
+    while (_ < _) { _ += 1
+    while (_ <= _) { ++
+    while (_ <= _) { _++
+    while (_ <= _) { _ += 1
+
+# Rule 18: unnecessary use of string variables
+#     string
+#     char*
+#     char const*
+
+Rule 19: read characters and convert to numbers rather than using "cin >> value"
+    stoi
+    stou
+    stol
+    stoul
+    stoll
+    stoull
+
+Rule 20: all uses of stringstream, istringstream, or ostringstream
+    stringstream
+    istringstream
+    ostringstream
+
+Rule 22: using UnhandledException rather than resuming a non-local exception
+    UnhandledException
